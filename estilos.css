@@ -1,0 +1,162 @@
+/* Estilos body */
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #F4D04E;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos contenedor general */
+.container {
+    
+    display: flex;
+    background-color: white;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 340px;
+    border: 1px solid var(--color-gray-950, #111);
+    box-shadow: 8px 8px 0px 0px #000;
+}
+
+/* Estilos primer imagen y primer contenedor interno*/ 
+.image {
+
+    border-radius: 10px;
+    width: 340px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos del segundo contenedor interno*/
+.cuerpo {
+
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    gap: 12px;
+    width: 340px;
+
+}
+
+/* Estilos boton learning */ 
+.learning {
+
+    display: flex;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 7px;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    border: none;
+
+}
+
+/* Estilos contenedor published */ 
+.published {
+    
+    display: flex;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos parrafo del contenedor published */
+.published p {
+
+    margin: 0;
+
+}
+
+/* Estilos contenedor HTML Y CSS foundations */
+.foundations {
+
+    display: flex;
+    width: 340px;
+    font-size: 11px;
+    font-family: 'Figtree', sans-serif;
+    transition: all 0.5s ease;
+
+}
+
+/* Estilo texto del contenedor HTML Y CSS foundations */
+.foundations h1 {
+
+    margin: 0;
+
+}
+
+/* Estilo hover para el texto HTML Y CSS foundations */ 
+.foundations:hover {
+
+    color: #F4D04E;
+
+}
+
+/* Estilos contenedor de parrafo */
+.parrafo {
+
+    display: flex;
+    color: #6B6B6B;
+    width: 330px;
+    font-family: 'Figtree', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
+/* Estilo para el texto del contenedor de parrafo */
+.parrafo p {
+
+    margin: 0;
+
+}
+
+/* Estilos tercer contenedor interno */
+.avatar {
+
+    display: flex;
+    align-items: center;
+    width: 330px;
+
+}
+
+/* Estilos de la imagen del avatar del tercer contenedor */
+.image-avatar {
+
+    width: 32px;
+    height: 32px;
+
+}
+
+/* Estilo para el texto del tercer contenedor */
+.avatar h1 {
+
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    margin-left: 15px;
+
+}
+
+@media screen and (max-width:500px) {
+
+    .container {
+        max-width: 340px;
+    }
+
+    body {
+        width: 100%;
+        height: auto;
+    }
+}
